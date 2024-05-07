@@ -1,3 +1,11 @@
+# Nike Landing Page
+
+This repository contains the source code for a subpage of REI (Recreational Equipment, Inc.) Adventures, a leading outdoor retailer providing gear and expertise for various outdoor activities.
+
+![Nike Landing Page Preview](Implementation/LaptopView/home.png)
+
+# NextJS + ReactJS + Tailwind
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -18,19 +26,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
+- **Responsive design:** The landing page is designed to be fully responsive, ensuring optimal viewing and interaction experiences across devices of all sizes.
+- **Visually Engaging:** The layout of the booking page is carefully crafted to be visually appealing, with high-quality imagery showcasing the Smoky Mountain retreat.
+- **Modern UI:** Inspired by REI's design language, the landing page offers a modern user interface booted with Tailwind CSS.
 
-## Learn More
+## Implementation
 
-To learn more about Next.js, take a look at the following resources:
+### Products Preview
+![Products Preview](Implementation/LaptopView/products.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### New This Week
+![New This Week Preview](Implementation/LaptopView/special.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Products Quality
+![Products Quality Preview](Implementation/LaptopView/quality.png)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Customer Reviews
+![Customer Reviews Preview](Implementation/LaptopView/customerReviews.png)

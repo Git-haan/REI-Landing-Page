@@ -3,7 +3,8 @@ import Button from "./Button"
 
 const Hero = () => {
     return(
-        <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 lg:flex-row">
+        <section id="home"
+        className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 lg:flex-row">
             <div className="hero-map"/>
 
             <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
@@ -11,7 +12,7 @@ const Hero = () => {
                     Great Smoky Mountains
                 </h1>
                 <p className="regular-16 mt-6 text-stone-500 lg:max-w-[520px]">
-                    Download a 4-day adventure guide that brings you face to face with the many facets and hidden wonders of the Great Smoky Mountains.
+                    Book a 4-day adventure guide that brings you face to face with the many facets and hidden wonders of the Great Smoky Mountains.
                 </p>
 
                 <div className="my-11 flex flex-wrap gap-5">
@@ -32,7 +33,7 @@ const Hero = () => {
                     <div className="flex flex-col w-full gap-3 sm:flex-row">
                         <Button 
                             type="button"
-                            title="Download App"
+                            title="Book Now"
                             variant="btn_green"
                         />
                         <Button 

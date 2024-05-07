@@ -1,10 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Destinations' },
-    { href: '/', key: 'activities', label: 'Activities' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'FAQs & resources' },
+    { href: '#camp', key: 'home', label: 'Overview' },
+    { href: '#activities', key: 'activities', label: 'Activities' },
+    { href: '#itinerary', key: 'itinerary', label: 'Itinerary' },
+    { href: '#faqs-resources', key: 'resources', label: 'FAQs & resources' },
   ];
   
   // CAMP SECTION
@@ -18,61 +17,57 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Real maps can be offline',
-      icon: '/map.svg',
-      variant: 'green',
-      description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
-    },
-    {
-      title: 'Set an adventure schedule',
+      title: 'Welcome to Great Smoky Mountains',
       icon: '/calendar.svg',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "After introductions we'll hop aboard our provided shuttle for a quick transfer to our first trailhead. The Cucumber Gap Loop is a perfect introduction to the rich biodiversity, beauty, and history of the Great Smoky Mountains.",
     },
     {
-      title: 'Technology using augment reality',
+      title: 'Hike to the Summit of Mount Cammerer',
+      icon: '/map.svg',
+      variant: 'green',
+      description:
+        "After a tasty backcountry breakfast, we transfer to Low Gap Trailhead for an out-and-back hike to the summit of Mount Cammerer. A series of switchbacks climbs 2,000 feet through beautiful hardwood forest before joining the famous Appalachian Trail.",
+    },
+    {
+      title: 'Climb to a Mountain Vista',
       icon: '/tech.svg',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Walk along a beautiful mountain stream through an old growth forest. Climb to one of the most picturesque mountain vistas with expansive views of breathtaking rock formations.',
     },
     {
-      title: 'Many new locations every month',
+      title: 'The Beautiful Nantahala River',
       icon: '/location.svg',
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'After three days of exploring on foot, we take to the water to experience the park with ease. We load into whitewater rafts to enjoy a fun, Class II and III ride down the scenic Nantahala River.',
     },
   ];
   
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {
-      title: 'Learn More',
+      title: 'REI Co-op',
       links: [
-        'About Hilink',
-        'Press Releases',
-        'Environment',
-        'Jobs',
-        'Privacy Policy',
-        'Contact Us',
+        'About REI',
+        'Action Fund',
+        'Newsroom',
+        'Technology Blog',
+        'Stewardship',
       ],
     },
     {
-      title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      title: 'More Adventures',
+      links: ['Zion Camping', 'Bryce Canyon', 'Pacific Crest Trail', 'Yosemite'],
     },
+    {
+      title: 'Help',
+      links: ['Help Center', 'Order Status', 'Returns', 'Product Recalls'],
+    }
   ];
   
-  export const FOOTER_CONTACT_INFO = {
-    title: 'Contact Us',
-    links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
-    ],
-  };
   
   export const SOCIALS = {
     title: 'Social',
