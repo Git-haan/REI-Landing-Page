@@ -2,7 +2,6 @@
 
 This repository contains the source code for a subpage of REI (Recreational Equipment, Inc.) Adventures, a leading outdoor retailer providing gear and expertise for various outdoor activities.
 
-![REI Landing Page Preview](implementation/Desktop View/hero.png)
 
 # NextJS + ReactJS + Tailwind
 
@@ -31,14 +30,4 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - **Visually Engaging:** The layout of the booking page is carefully crafted to be visually appealing, with high-quality imagery showcasing the Smoky Mountain retreat.
 - **Modern UI:** Inspired by REI's design language, the landing page offers a modern user interface booted with Tailwind CSS.
 
-## Implementation
-
-### Activities Preview
-![Activities Preview](implementation/Desktop View/activities.png)
-
-### Itinerary
-![Itinerary](implementation/Desktop View/itinerary.png)
-
-### FAQ
-![FAQ](implementation/Desktop View/faq.png)
 
