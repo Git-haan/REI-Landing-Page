@@ -1,8 +1,8 @@
-# Nike Landing Page
+# REI Landing Page
 
 This repository contains the source code for a subpage of REI (Recreational Equipment, Inc.) Adventures, a leading outdoor retailer providing gear and expertise for various outdoor activities.
 
-![Nike Landing Page Preview](Implementation/LaptopView/home.png)
+![REI Landing Page Preview](implementation/Desktop View/hero.png)
 
 # NextJS + ReactJS + Tailwind
 
@@ -33,14 +33,12 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Implementation
 
-### Products Preview
-![Products Preview](Implementation/LaptopView/products.png)
+### Activities Preview
+![Activities Preview](implementation/Desktop View/activities.png)
 
-### New This Week
-![New This Week Preview](Implementation/LaptopView/special.png)
+### Itinerary
+![Itinerary](implementation/Desktop View/itinerary.png)
 
-### Products Quality
-![Products Quality Preview](Implementation/LaptopView/quality.png)
+### FAQ
+![FAQ](implementation/Desktop View/faq.png)
 
-### Customer Reviews
-![Customer Reviews Preview](Implementation/LaptopView/customerReviews.png)
